@@ -78,3 +78,46 @@
   font-weight: bolder;
   border-radius: 6px;
 }
+
+.second-section-header{
+  margin: 0px;
+  padding: 0px;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 38px;
+  margin-bottom: 35px;
+}
+
+.card-container{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.card{
+  margin-top: 15px;
+  margin-bottom: 40px;
+  width:300px;
+  height: fit-content;
+  padding: 15px;
+  border: 2px solid rgb(230, 217, 217);
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 12px 12px 30px grey;
+}
+
+.card:hover{
+  margin-top: -30px;
+  transition: 0.4s;
+}
+
+.card>p{
+  font-weight:400;
+  text-align: left;
+}
+
+.card>img{
+  width:80px;
+  height: 80px;
+}
